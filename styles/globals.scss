@@ -1,0 +1,33 @@
+@import 'colors';
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+header{
+  height: 10rem;
+  background-color: $offwhite;
+}
+main {
+  min-height: 90vh;
+  padding: 1rem 2rem;
+  background-color: $white;
+}
+footer {
+  width: 100vw;
+  height: 20rem;
+  padding: 1rem 2rem;
+  color:$white;
+  background-color: $black;
+}
