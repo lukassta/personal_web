@@ -4,5 +4,8 @@
   },
   "Index": {},
   "Footer": {},
+  "NotFound": {
+    "description": "404: Puslapis nerastas"
+  },
   "My-cv": {}
 }

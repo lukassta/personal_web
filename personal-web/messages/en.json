@@ -4,5 +4,8 @@
   },
   "Index": {},
   "Footer": {},
+  "NotFound": {
+    "description": "404: Page not found"
+  },
   "My-cv": {}
 }
