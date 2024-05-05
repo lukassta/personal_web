@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="header">
       <nav className="menu">
-        <Link href="/my-cv">{t("my-cv")}</Link>
+        <Link href="/my-cv">{t("my_cv")}</Link>
       </nav>
     </header>
   );

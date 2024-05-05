@@ -1,11 +1,11 @@
 {
   "Header": {
-    "my-cv": "My CV"
+    "my_cv": "My CV"
   },
   "Index": {},
   "Footer": {},
   "NotFound": {
     "description": "404: Page not found"
   },
-  "My-cv": {}
+  "MyCv": {}
 }

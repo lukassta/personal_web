@@ -1,11 +1,11 @@
 {
   "Header": {
-    "my-cv": "Mano CV"
+    "my_cv": "Mano CV"
   },
   "Index": {},
   "Footer": {},
   "NotFound": {
     "description": "404: Puslapis nerastas"
   },
-  "My-cv": {}
+  "MyCv": {}
 }
