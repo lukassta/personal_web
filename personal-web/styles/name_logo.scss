@@ -1,0 +1,77 @@
+.container {
+  position: fixed;
+  height: 80px;
+  width: 45px;
+  left: 40px;
+  padding-left: 35px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  user-select: none;
+
+  transition: width 500ms, height 500ms, margin-left 500ms;
+  span {
+    font: 18px DM mono;
+    height: 40px;
+    position: absolute;
+    width: 11px;
+    transform-origin: bottom center;
+    transition: height 500ms;
+  }
+  &:hover {
+    span {
+      height: 40px;
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+$spacing-deg: 26deg;
+.char1 {
+  transform: rotate(calc($spacing-deg * -2));
+}
+.char2 {
+  transform: rotate(calc($spacing-deg * -1));
+}
+.char3 {
+  transform: rotate(0deg);
+}
+.char4 {
+  transform: rotate($spacing-deg);
+}
+.char5 {
+  transform: rotate(calc($spacing-deg * 2));
+}
+.char6 {
+  transform: rotate(calc(180deg - $spacing-deg * 3.5));
+}
+.char7 {
+  transform: rotate(calc(180deg - $spacing-deg * 2.5));
+}
+.char8 {
+  transform: rotate(calc(180deg - $spacing-deg * 1.5));
+}
+.char9 {
+  transform: rotate(calc(180deg - $spacing-deg * 0.5));
+}
+.char10 {
+  transform: rotate(calc(180deg + $spacing-deg * 0.5));
+}
+.char11 {
+  transform: rotate(calc(180deg + $spacing-deg * 1.5));
+}
+.char12 {
+  transform: rotate(calc(180deg + $spacing-deg * 2.5));
+}
+.char13 {
+  transform: rotate(calc(180deg + $spacing-deg * 3.5));
+}
