@@ -10,7 +10,9 @@ export default function Header() {
 
   return (
     <header>
-      <NameLogo />
+      <Link href="/">
+        <NameLogo />
+      </Link>
       <nav>
         <Link href="/my-cv">{t("my_cv")}</Link>
       </nav>
