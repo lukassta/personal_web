@@ -2,7 +2,11 @@
   "Header": {
     "my_cv": "Mano CV"
   },
-  "Index": {},
+  "Index": {
+    "education": "Edukacija",
+    "skills": "Įgūdžiai",
+    "about-me": "Apie mane"
+  },
   "Footer": {},
   "NotFound": {
     "description": "404: Puslapis nerastas"

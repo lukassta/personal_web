@@ -5,7 +5,13 @@ export default function Index() {
   return (
     <>
       <section>
-        <div>a</div>
+        <h2>{t("education")}</h2>
+      </section>
+      <section>
+        <h2>{t("about-me")}</h2>
+      </section>
+      <section>
+        <h2>{t("skills")}</h2>
       </section>
     </>
   );

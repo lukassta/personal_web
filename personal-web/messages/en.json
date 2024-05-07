@@ -2,7 +2,11 @@
   "Header": {
     "my_cv": "My CV"
   },
-  "Index": {},
+  "Index": {
+    "education": "Education",
+    "skills": "Skills",
+    "about-me": "About me"
+  },
   "Footer": {},
   "NotFound": {
     "description": "404: Page not found"
