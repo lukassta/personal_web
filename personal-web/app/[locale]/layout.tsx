@@ -12,7 +12,9 @@ export default function LocaleLayout({
     <html lang={locale}>
       <body>
         <Header />
-        <main>{children}</main>
+        <main>
+          <div id="container">{children}</div>
+        </main>
         <Footer />
       </body>
     </html>
