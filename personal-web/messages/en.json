@@ -3,9 +3,14 @@
     "my_cv": "My CV"
   },
   "Index": {
+    "about-me": "About me",
+    "now": "now",
     "education": "Education",
-    "skills": "Skills",
-    "about-me": "About me"
+    "progymnasium": "Vilnius Simonas Daukantas progymnasium",
+    "turing_intro": " Turing School: Intro into computer science",
+    "gymnasium": "Vilnius Simonas Daukantas gymnasium",
+    "turing_cs50": "Turing School: CS50",
+    "skills": "Skills"
   },
   "Footer": {},
   "NotFound": {

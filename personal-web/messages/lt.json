@@ -3,9 +3,14 @@
     "my_cv": "Mano CV"
   },
   "Index": {
+    "about-me": "Apie mane",
+    "now": "dabar",
     "education": "Edukacija",
-    "skills": "Įgūdžiai",
-    "about-me": "Apie mane"
+    "progymnasium": "Vilniaus Simono Daukanto progimnazija",
+    "turing_intro": "Turing School: Įvadas į kompiuterių mokslą",
+    "gymnasium": "Vilniaus Simono Daukanto gimnazija",
+    "turing_cs50": "Turing School: CS50",
+    "skills": "Įgūdžiai"
   },
   "Footer": {},
   "NotFound": {
