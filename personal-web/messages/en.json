@@ -4,17 +4,32 @@
   },
   "Index": {
     "about-me": "About me",
+    "my_qualities": "Hello, I'm Luke, a creative and passionate individual with a logical mindset. Thanks to these attributes, I excel at problem-solving. Furthermore, I possess strong communication skills, allowing me to seamlessly integrate into any team and contribute effectively.",
     "now": "now",
+    "summer": "summer",
+    "experience": "Experience",
+    "nord_internship": "Internship at Nord Security",
+    "nord_internship_description": "I interned at Nord Security, specifically NordVPN product. Initially tasked with manually creating notifications, I utilized Python to automate this process.",
+    "soci": "Programmer at Soci.lt",
+    "soci_description": "Since nearly the beginning of Soci.lt, I've worked there as a programmer. Moreover, I played a significant role in laying the foundations of this product.",
     "education": "Education",
     "progymnasium": "Vilnius Simonas Daukantas progymnasium",
     "turing_intro": " Turing School: Intro into computer science",
     "gymnasium": "Vilnius Simonas Daukantas gymnasium",
     "turing_cs50": "Turing School: CS50",
-    "skills": "Skills"
+    "interests": "Interests",
+    "drums": "Drums",
+    "d&d": "D&D",
+    "graphic_design": "Graphic design",
+    "penetration_testing": "Penetration testing",
+    "philosophy": "Philosophy",
+    "programming": "Programming",
+    "psichology": "Psichology",
+    "contacts": "Contacts"
   },
   "Footer": {},
   "NotFound": {
-    "description": "404: Page not found"
+    "description": "Page not found"
   },
   "MyCv": {}
 }

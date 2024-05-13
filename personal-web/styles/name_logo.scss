@@ -1,31 +1,48 @@
 @import "styles/colors.scss";
 
 .container {
+  background-color: $light;
+
+  border-radius: 50%;
   position: fixed;
-  height: 80px;
-  width: 45px;
+  height: 100px;
+  width: 58px;
+  padding-left: 42px;
   top: 10px;
-  left: 40px;
-  padding-left: 35px;
+  left: 45px;
+  @media (max-width: 1920px) {
+    left: 35px;
+  }
+  @media (max-width: 1600px) {
+    left: 30px;
+  }
+  @media (max-width: 1300px) {
+    left: 50%;
+    margin-left: -60px;
+  }
+  @media (max-width: 768px) {
+    position: relative;
+    left: 50%;
+  }
   animation-name: spin;
   animation-duration: 50000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   user-select: none;
-
   transition: width 500ms, height 500ms, margin-left 500ms;
   span {
-    font: 18px DM mono;
+    font: 22px DM mono;
+    font-weight: 800;
     color: $dark;
-    height: 40px;
+    height: 50px;
     position: absolute;
-    width: 11px;
+    width: 15px;
     transform-origin: bottom center;
     transition: height 500ms;
   }
   &:hover {
     span {
-      height: 40px;
+      height: 50px;
     }
   }
 }

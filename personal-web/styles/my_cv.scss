@@ -1,0 +1,80 @@
+@import "styles/colors.scss";
+
+
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+section {
+  margin-bottom: 30px;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+p {
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+}
+.hider {
+  height: auto;
+  margin-top: -1px;
+  overflow: hidden;
+  @media (max-width: 1000px) {
+    max-height: 100px;
+  }
+  max-height: 0;
+  transition: max-height 500ms;
+
+  p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: 20px;
+    width: 60%;
+    @media (max-width: 1300px) {
+      width: 80%;
+    }
+    @media (max-width: 1000px) {
+      width: 95%;
+    }
+  }
+}
+span:is(:hover, :focus-visible) + .hider {
+  max-height: 100px;
+}
+.hider:is(:hover, :focus-visible) {
+  max-height: 100px;
+}
+span:is(:hover, :focus-visible) + .popup {
+  display: inline;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.popup {
+  position: fixed;
+  display: none;
+  margin-left: 100px;
+  @media (max-width: 1600px) {
+    right: 20px;
+  }
+  top: 20%;
+  border: 2px solid $dark;
+  background-color: $light;
+}
+
+.thick {
+  border-top: 5px solid $dark;
+  margin: 0;
+}
+
+.thin {
+  border-top: 2px solid $dark;
+  margin: 0;
+}

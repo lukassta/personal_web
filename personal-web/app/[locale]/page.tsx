@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <>
       <section>
-        <div>a</div>
+        <h1>Lukas Stavaris</h1>
       </section>
     </>
   );

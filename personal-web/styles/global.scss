@@ -15,7 +15,35 @@ main {
   margin: 15px;
 }
 
+h1 {
+  font-weight: 900;
+  font-size: 90px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+span {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+}
+
 #container {
   margin: 0 auto;
   width: 1600px;
+  @media (max-width: 1920px) {
+    width: 1300px;
+  }
+  @media (max-width: 1600px) {
+    width: 1000px;
+  }
+  @media (max-width: 1300px) {
+    width: 900px;
+  }
+  @media (max-width: 1000px) {
+    width: 768px;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }

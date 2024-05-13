@@ -6,17 +6,36 @@ header {
   display: flex;
   align-items: center;
   color: $dark;
+
   nav {
     margin-left: auto;
     display: flex;
     align-items: center;
     font-size: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+
     a {
       text-decoration: none;
+      font: 20px DM mono;
+      font-weight: 600;
       color: $dark;
       display: flex;
       text-transform: uppercase;
       margin: 0px 24px;
+      padding: 8px;
+      border: 2px solid $dark;
+      text-align: center;
+    }
+
+    .locale-button {
+      width: 50px;
+      text-transform: uppercase;
+      background-color: rgb(0, 0, 0, 0);
+      border: 2px solid $dark;
+      color: $dark;
+      font-size: 30px;
+      font-weight: 900;
     }
   }
 }

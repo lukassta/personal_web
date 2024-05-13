@@ -5,6 +5,8 @@ import { Link } from "../navigation";
 
 import "styles/header.scss";
 
+import LocaleButtons from "./LocaleButtons";
+
 export default function Header() {
   const t = useTranslations("Header");
 
@@ -15,6 +17,7 @@ export default function Header() {
       </Link>
       <nav>
         <Link href="/my-cv">{t("my_cv")}</Link>
+        <LocaleButtons />
       </nav>
     </header>
   );

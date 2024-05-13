@@ -4,13 +4,29 @@
   },
   "Index": {
     "about-me": "Apie mane",
+    "my_qualities": "Labas, aš Lukas, kūrybingas ir aistringas asmuo, turintis stiprų loginį mąstymą. Dėl šių savybių man puikiai sekasi spręsti problemas. Taip pat pasižymiu puikiais komunikaciniais įgūdžiais, kurie man leidžia lengvai integruotis į naujas komandas ir sėkmingai prisidėti jose bei atnešti naudos.",
     "now": "dabar",
+    "summer": "vasara",
+    "experience": "Patirtis",
+    "nord_internship": "Praktika Nord Security įmonėje",
+    "nord_internship_description": "Atlikau praktiką įmonėje Nord Security, NordVPN produkte. Mano darbas buvo administracinis – kurti pranešimus, bet pasitelkęs „Python“ programavimo kalbą šią užduotį automatizavau.",
+    "soci": "Programuotojas Soci.lt įmonėje",
+    "soci_description": "Beveik nuo pat Soci.lt startuolio pradžios dirbau jame programuotoju. Asmeniškai kūriau svarią dalį Soci.lt produkto pagrindo.",
     "education": "Edukacija",
     "progymnasium": "Vilniaus Simono Daukanto progimnazija",
     "turing_intro": "Turing School: Įvadas į kompiuterių mokslą",
     "gymnasium": "Vilniaus Simono Daukanto gimnazija",
     "turing_cs50": "Turing School: CS50",
-    "skills": "Įgūdžiai"
+    "interests": "Pomėgiai",
+    "drums": "Bugnai",
+    "d&d": "D&D",
+    "graphic_design": "Grafinis dizainas",
+    "penetration_testing": "Skverbties bandymai (pentesting)",
+    "philosophy": "Filosofija",
+    "programming": "Programavimas",
+    "psichology": "Psichologija",
+
+    "contacts": "Kontaktai"
   },
   "Footer": {},
   "NotFound": {
